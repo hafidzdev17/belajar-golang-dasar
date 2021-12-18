@@ -15,6 +15,7 @@ func main() {
 	& = pointer
 	* = reference all
 	*/
+
 	address1 := Address{"jambekumbu", "lumajang", "indonesia"}
 	address2 := &address1
 	address3 := &address1
