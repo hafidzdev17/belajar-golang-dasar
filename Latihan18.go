@@ -13,6 +13,7 @@ func Ups(i int) interface{} {
 }
 
 func main() {
+
 	ups := Ups(1)
 	fmt.Println(ups)
 }
