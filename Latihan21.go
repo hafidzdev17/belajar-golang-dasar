@@ -4,7 +4,7 @@ import "fmt"
 
 // TODO: type assertion
 func random() interface{} {
-	return "OK"
+	return "200 OK"
 }
 
 func main() {
