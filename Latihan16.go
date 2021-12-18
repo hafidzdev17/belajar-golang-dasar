@@ -9,6 +9,7 @@ type Customer struct {
 }
 
 func getCustomer() {
+
 	// Struct Literal
 	printCustomer := Customer{
 		Name:    "deddy",
