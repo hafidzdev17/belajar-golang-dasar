@@ -17,6 +17,7 @@ func checkNil(name string) map[string]string {
 func main() {
 
 	var newNil map[string]string = checkNil("hafid")
+
 	if newNil == nil {
 		fmt.Println("data null")
 	} else {
