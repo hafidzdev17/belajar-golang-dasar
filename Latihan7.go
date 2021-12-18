@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// TODO: create slice
+	// TODO: create array
 	koridorMembers := [...]string{
 		"lutfi",
 		"usama oyo",
@@ -22,7 +22,12 @@ func main() {
 	fmt.Println(cap(sliceKoridor)) */
 
 	// TODO: append slice
-	appendKoridor := append(sliceKoridor,"deddy","bombom","akbar","sam","didik","karim","hafidjs")
+	appendKoridor := append(sliceKoridor, "deddy", "bombom", "akbar", "sam", "didik", "karim", "hafidjs")
 	fmt.Println(appendKoridor)
+
+	//	TODO: copy slice
+	copySlice := make([]string, len(appendKoridor), cap(appendKoridor))
+	copy(copySlice, appendKoridor)
+	fmt.Println(copySlice)
 
 }
