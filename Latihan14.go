@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// TODO: Closure
+	// TODO: Create Closure
 	counter := 0
 
 	increment := func() {
