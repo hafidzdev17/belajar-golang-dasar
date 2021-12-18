@@ -36,7 +36,7 @@ func main() {
 	sayHello(person)
 
 	var animal Animal
-	animal.name = "cat"
+	animal.name = "dragon"
 	sayHello(animal)
 
 }
