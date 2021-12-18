@@ -15,7 +15,7 @@ func endApp() {
 }
 
 func runApp(error bool) {
-	// Call Defer
+	// Calling Defer
 	defer endApp()
 	if error {
 		// Handle Panic
