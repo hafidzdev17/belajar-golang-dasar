@@ -7,6 +7,7 @@ import (
 
 // TODO: Error Interface
 func handleError(value, bagi int) (int, error) {
+
 	if bagi == 0 {
 		return 0, errors.New("pembagi tidak boleh 0")
 	} else {
